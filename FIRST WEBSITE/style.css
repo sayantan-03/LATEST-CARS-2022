@@ -1,0 +1,107 @@
+@import url('http://fonts.cdnfonts.com/css/bomber-escort');
+
+@import url('http://fonts.cdnfonts.com/css/gotham-pro');
+@import url('http://fonts.cdnfonts.com/css/paladins');
+body{
+    background-color: rgb(253, 243, 222);
+   
+}
+ span{
+    color: brown;
+    font-family: 'Paladins';
+    text-shadow: 10px;
+   
+}
+span b{
+    color: rgb(0, 43, 106);
+    font-family: 'Paladins';
+    
+} 
+ .nav-left{
+   
+    font-size: 45px;
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: center;
+
+} 
+.nav-right ul li a{
+    text-decoration: none;
+    padding-right: 40px;
+    color: black;
+}
+.nav-right ul li a:hover{
+    color: rgb(198, 1, 1);
+}
+
+.sd{
+    font-family: 'Gotham Pro';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;   
+}
+.nav-right ul li{
+list-style: none;
+
+
+
+}
+.nav-right ul{
+display: flex;
+padding-right: 10px;
+
+}
+.content{
+    height:35vh;
+    display: flex;
+    padding-top: 50px;
+    
+}
+.content-left img{
+    height:250px;
+    width:350x;
+    padding-top: 50px;
+    padding-left: 30px;
+    border: 40px;
+    border-color: brown;
+    border-radius: 20px;
+    display: flex;
+
+}
+.content-right{
+    display: inline;
+    
+    
+}
+p{
+    align-items: flex-start;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+h3{
+    padding-top: 60px;
+    padding-left: 60px;
+    color: rgb(177, 34, 34);
+    cursor: pointer;   
+}
+h3:hover{
+    color: rgb(0, 0, 0);
+}
+hr{
+    padding-top: 2px;
+}
+/* .body{
+    height: fit-content;
+    background-color: rgb(247, 144, 18);
+} */
+footer{
+    padding-bottom: 30px;
+    padding-left: 180px;
+}
+footer a{
+    text-decoration: none;
+    font-family:'gotham pro';
+    text-align: center;
+}
